@@ -260,7 +260,13 @@ src
 
 A **Carga Química** é o elemento central do domínio. Ela se relaciona com Produto Químico, Responsável Técnico, Documento da Carga, Inspeção e Área de Armazenamento.
 
-O diagrama visual pode ser mantido no repositório como imagem para evitar excesso de código no README.
+![Diagrama de Domínio](Diagrama%20de%20Domínio.png)
+
+### Fluxo de Status da Carga Química
+
+O fluxo principal representa a evolução da carga desde o registro até sua finalização, considerando também situações de bloqueio e cancelamento.
+
+![Fluxo de Status](Fluxo%20de%20Status.png)
 
 ### Fluxo de Status da Carga Química
 
