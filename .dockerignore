@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.git/
+.env
+.tmp-npm-cache/
+coverage/
+tests/
+src/generated/prisma/
+*.log
+*.tmp
+.tmp-*
+npm-debug.log*

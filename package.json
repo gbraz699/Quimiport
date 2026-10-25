@@ -1,0 +1,31 @@
+{
+  "name": "quimiport-api",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsc -p tsconfig.json && node --test --test-isolation=none dist/tests/*.test.js",
+    "test:coverage": "tsc -p tsconfig.json && node --test --test-isolation=none --experimental-test-coverage dist/tests/*.test.js"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.9",
+    "@types/pg": "^8.23.1",
+    "@types/swagger-ui-express": "^4.1.8",
+    "prisma": "^7.10.1",
+    "tsx": "^4.23.12",
+    "typescript": "^5.9.3"
+  }
+}
